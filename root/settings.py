@@ -36,8 +36,8 @@ INSTALLED_APPS = [
     'auth.roles.apps.RolesConfig',
     'teaching_info.apps.TeachingInfoConfig',
     'users.apps.UsersConfig',
-    # 'course_schedule.apps.CourseScheduleConfig',
-    # 'labs.apps.LabsConfig',
+    'course_schedule.apps.CourseScheduleConfig',
+    'labs.apps.LabsConfig',
     'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -86,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'labsys',
-        'HOST': 'localhost',
+        'HOST': '192.168.31.247',
         'USER': 'labsys',
         'PASSWORD': 'admin_labsys',
     }
