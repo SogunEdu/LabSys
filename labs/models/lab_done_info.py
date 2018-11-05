@@ -23,4 +23,4 @@ class LabDoneInfo(models.Model):
 
     class Meta:
         app_label = "labs"
-        db_table = "lab_result"
+        db_table = "lab_done_info"
